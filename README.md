@@ -45,6 +45,8 @@ As seguintes ferramentas foram utilizadas no desenvolvimento do projeto:
 - [x] Menu dropdown;
 - [x] Menu mobile;
 - [x] Animação de números;
+- [ ] Fetch API
+- [ ] Slides
 
 ## 🛠️ Como executar o projeto
 
