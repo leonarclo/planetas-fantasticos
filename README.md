@@ -20,7 +20,7 @@ _<p align="center">* Status: Em andamento 🚧 </p>_
 </p>
 
 ## 📑 Sobre o projeto
-Planetas Fantásticos é uma página web para demonstração dos Planetas do Sistema Solar, contendo  dados, informações e imagens sobre os mesmos. Foi construído com base no projeto codificado durante o curso de [Javascript Completo ES6+, da Origamid](https://www.origamid.com/curso/javascript-completo-es6/), sendo feitos alguns ajustes em relação ao original, porém mantendo a mesma estrutura de código.
+Planetas Fantásticos é uma página web para demonstração dos Planetas do Sistema Solar :ringed_planet:, contendo  dados, informações e imagens sobre os mesmos. Foi construído com base no projeto codificado durante o curso de [Javascript Completo ES6+, da Origamid](https://www.origamid.com/curso/javascript-completo-es6/), sendo feitos alguns ajustes em relação ao original, porém mantendo a mesma estrutura de código.
 Neste projeto, foram utilizados os principais tópicos de programação front-end com Javascript, como: conceitos e efeitos de DOM; responsividade; objetos; JS assíncrono; classes; regexp; modules; dentre outros...
 
 ## 🎨 Demonstração
