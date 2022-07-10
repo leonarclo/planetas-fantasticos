@@ -1,0 +1,56 @@
+[data-menu="button"] {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .js [data-menu="button"] {
+    display: flex;
+    background-color: aliceblue;
+    border: none;
+    padding: .8rem 1rem;
+    font-family: 'Fira Code';
+    font-weight: bold;
+    color: #282c66;
+    text-transform: uppercase;
+    align-items: center;
+    position: relative;
+    z-index: 301;
+  } 
+
+  .js [data-menu="button"]::before {
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 12px;
+    background-color: #282c66;
+    box-shadow: 0 4px #282c66, 0 -4px #282c66;
+    margin-right: 5px;
+    transition: transform .3s;
+  }
+
+  .js [data-menu="button"].active::before {
+    transform: rotate(90deg);
+  } 
+
+
+  .js #menu {
+    display: none;
+    position: absolute;
+    background-color: #282c66;
+    max-width: 200px;
+    z-index: 300;
+    padding: 70px 0 20px 0;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+  }
+
+  .js #menu.active {
+    display: block;
+    animation: show-down .3s forwards;
+  }
+
+  .js .dropdown-menu {
+    position: static;
+  }
+}

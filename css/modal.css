@@ -1,0 +1,80 @@
+.modal-container.ativo {
+  display: flex;
+}
+
+.modal-container {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, .9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: rgba(48, 48, 48, 0.829);
+  padding: 80px 40px;
+  border: 10px solid rgb(1, 7, 24);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+}
+
+.close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  top: -10px;
+  right: -10px;
+  background-color: rgb(1, 7, 24);
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close:hover {
+  background-color: #282c66;
+}
+
+.modal input {
+  width: 350px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.modal-submit {
+  padding: 10px;  
+  font-family: 'Fira Code', monospace;
+  background-color: #282c66;
+  color: aliceblue;
+}
+
+.modal-submit:hover {
+  background-color: #585c9b;
+}
+
+.modal-container input {
+  margin-bottom: 30px;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0)
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+.ativo .modal {
+  animation: modal .3s forwards;
+}

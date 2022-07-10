@@ -1,0 +1,12 @@
+.tooltip {
+  position: absolute;
+  z-index: 500;
+  background-color: #77a8d31a;
+  color: aliceblue;
+  box-shadow: 0 0 0 2px #dfdfdf;
+  padding: .5rem;
+  font-family: 'Fira Code', monospace;
+  font-weight: bold;
+  font-size: .875rem;
+  max-width: 150px;
+}
