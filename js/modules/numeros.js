@@ -1,27 +1,24 @@
 export default function initNumerosAnimation() {
+  function animaNumbers() {
+    const numbers = document.querySelectorAll('[data-numero]');
 
-}
+    numbers.forEach((number) => {
+      const total = +number.innerText;
+      const increment = Math.floor(total / 100);
 
-function animaNumbers() {
-  const numbers = document.querySelectorAll('[data-numero]');
-  
-  numbers.forEach((number) => {
-    const total = +number.innerText;
-    const increment = Math.floor(total / 100)
-  
-    let start = 0;
-    const timer = setInterval(() => {
-      start += increment;
-      number.innerText = start;
-      if (start > total) {
-        number.innerHTML = total;
-        clearInterval(timer);
-      }
-    }, 25 * Math.random())
-  })  
-}
+      let start = 0;
+      const timer = setInterval(() => {
+        start += increment;
+        number.innerText = start;
+        if (start > total) {
+          number.innerHTML = total;
+          clearInterval(timer);
+        }
+      }, 25 * Math.random());
+    });
+  }
 
-
+  let observer;
 
   function handleMutation(mutation) {
     if (mutation[0].target.classList.contains('ativo')) {
@@ -29,8 +26,9 @@ function animaNumbers() {
       animaNumbers();
     }
   }
-  
+
   const observerTarget = document.querySelector('.numero');
-  const observer = new MutationObserver(handleMutation);
-  
-  observer.observe(observerTarget, {attributes: true})
+  observer = new MutationObserver(handleMutation);
+
+  observer.observe(observerTarget, { attributes: true });
+}

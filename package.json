@@ -1,0 +1,27 @@
+{
+  "name": "planetas-fantasticos",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r   <img src=\"./assets/.github/planetas-fantasticos-logo.png\" width=\"500\" alt=\"Planetas Fantásticos Logo\">\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonarclo/planetas-fantasticos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonarclo/planetas-fantasticos/issues"
+  },
+  "homepage": "https://github.com/leonarclo/planetas-fantasticos#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0"
+  }
+}

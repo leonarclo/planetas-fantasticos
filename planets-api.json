@@ -1,0 +1,34 @@
+[
+  {
+    "planet": "Mercúrio",
+    "dimension": 4879
+  },
+  {
+    "planet": "Vênus",
+    "dimension": 12103
+  },
+  {
+    "planet": "Terra",
+    "dimension": 12756
+  },
+  {
+    "planet": "Marte",
+    "dimension": 6794
+  },
+  {
+    "planet": "Júpiter",
+    "dimension": 142984
+  },
+  {
+    "planet": "Saturno",
+    "dimension": 120536
+  },
+  {
+    "planet": "Urano",
+    "dimension": 51118
+  },
+  {
+    "planet": "Neturno",
+    "dimension": 49538
+  }
+]
