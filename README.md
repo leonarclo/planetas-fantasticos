@@ -66,8 +66,8 @@ As seguintes ferramentas foram utilizadas no desenvolvimento do projeto:
 
 ## 🧲 Dependências
 - [x] **[ESLint](https://eslint.org/)**
-- [ ] **[Webpack](https://webpack.js.org/)**
-- [ ] **[Babel](https://babeljs.io/)**
+- [x] **[Webpack](https://webpack.js.org/)**
+- [x] **[Babel](https://babeljs.io/)**
 
 ---
 
