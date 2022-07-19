@@ -1,4 +1,4 @@
-import initScrollSuave from './modules/scroll-suave.js';
+import ScrollSuave from './modules/scroll-suave.js';
 import initAnimaScroll from './modules/scroll-animation.js';
 import initAccordion from './modules/accordion-list.js';
 import initTabNav from './modules/active-tab.js';
@@ -10,7 +10,9 @@ import initMenuMobile from './modules/menu-mobile.js';
 import initDate from './modules/date.js';
 import initFetchPlanets from './modules/fetchAPI.js';
 
-initScrollSuave();
+const scrollSuave = new ScrollSuave('[data-anime="scrollSuave"] a[href^="#"]');
+scrollSuave.init();
+
 initAnimaScroll();
 initAccordion();
 initTabNav();
